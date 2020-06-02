@@ -37,6 +37,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+.btn{
+  background: #8B4531;
+  border: 2px solid #8B4531;
+  color: #fff;
+}
+
+.btn:hover {
+  background: none;
+  border: 2px solid #8B4531;
+  color: #8B4531;
+}
+
+.email{
+  width:80%;
+  border: 1px solid #black;
+
+}
 /* Prelaoder */
 #preloader {
   position: fixed;
