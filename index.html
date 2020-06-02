@@ -351,24 +351,20 @@
 
 
           <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message">Something went wrong. Please Try Again</div>
-                  <div class="sent-message">You are now subscribed to our newsletter!</div>
-                </div>
-                <div class="text-center"><button type="submit">Subscribe</button></div>
+           <div class="form">
+              <form style="border:1px solid #8B4531;text-align:center;" action="https://tinyletter.com/BlackPrideIreland" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/BlackPrideIreland', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+               <br>
+                <p>
+                  <input class="email" type="text" name="email" id="tlemail" placeholder="Email Address" />
+                </p>
+                <input type="hidden" value="1" name="embed"/>
+                <input  class="btn"type="submit" value="Subscribe" />
+                <p>
+                  <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+                </p>
               </form>
             </div>
+
           </div>
 
         </div>
