@@ -12,6 +12,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  width: auto;
 }
 
 a {
@@ -119,7 +120,7 @@ margin-right: auto;
 --------------------------------------------------------------*/
 #hero {
   display: table;
-  width: 100%;
+  width: auto;
   height: 100vh;
   background: url(../img/banner.jpg) top center;
   background-size: cover;
@@ -276,6 +277,7 @@ margin-right: auto;
   margin: 0;
   padding: 0;
   list-style: none;
+  width: auto;
 }
 
 .nav-menu ul {
