@@ -21,7 +21,7 @@ a {
 }
 
 img{
-  width: auto;
+  width: 100%;
 }
 a:hover, a:active, a:focus {
   color: grey;
@@ -131,7 +131,10 @@ margin-right: auto;
     background-attachment: fixed;
   }
 }
-
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 #hero .hero-logo {
   margin: 20px;
 }
